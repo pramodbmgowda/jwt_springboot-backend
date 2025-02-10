@@ -32,13 +32,13 @@ This project is a Spring Boot-based backend application that implements authenti
 - **Custom JWT filter** for authentication
 
 ## 📂 API Endpoints
-| Method | Endpoint          | Description             | Access |
-|--------|------------------|-------------------------|--------|
-| POST   | `/authenticate`  | User login & JWT token  | Public |
-| POST   | `/register`      | Register new users      | Public |
-| GET    | `/users`         | Get all users           | Admin  |
-| GET    | `/user/{id}`     | Get user by ID          | Admin  |
-| POST   | `/roles`         | Create new role         | Admin  |
+| Method | Endpoint          | Description             |
+|--------|------------------|-------------------------|
+| POST   | `/authenticate`  | User login & JWT token  |
+| POST   | `/register`      | Register new users      |
+| GET    | `/users`         | Get all users           |
+| GET    | `/user/{id}`     | Get user by ID          |
+| POST   | `/roles`         | Create new role         |
 
 ## 🔑 JWT Authentication Flow
 1. User logs in with username and password.
@@ -89,4 +89,6 @@ This project is licensed under the **MIT License**.
 ---
 ### 📩 Need Help?
 Feel free to create an issue or reach out to the repository owner!
+
+This project is licensed under the MIT License.
 
